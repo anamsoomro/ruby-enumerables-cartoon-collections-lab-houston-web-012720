@@ -7,9 +7,10 @@ end
 
 def summon_captain_planet (array)
   #return value should be an array with capitalized elements and ! added
-  array.map { |x| 
+  result = array.map { |x| 
   x.titleize
   }
+  result
 end
 
 def long_planeteer_calls# code an argument here
