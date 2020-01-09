@@ -8,7 +8,7 @@ end
 def summon_captain_planet (array)
   #return value should be an array with capitalized elements and ! added
   result = array.map { |x| 
-  x.titleize
+  titlecase(x)
   }
   result
 end
