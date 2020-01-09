@@ -6,9 +6,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet (array)
-  #return value should be an array with capitalized elements and ! added
-  result = array.map { |x| 
-  titlecase(x)
+  result = array.map {|x|
+  x += "!"
+  x.capitalize
   }
   result
 end
