@@ -22,5 +22,5 @@ end
 def find_the_cheese(array)
   #go through array and reutrn the first cheese, if no cheese nil 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.any? {|x| 
+  array.include {|x| 
 end
