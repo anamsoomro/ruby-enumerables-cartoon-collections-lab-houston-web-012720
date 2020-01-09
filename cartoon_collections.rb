@@ -1,11 +1,12 @@
 def roll_call_dwarves(dwarves)
+  #prints dwarves names as a list
   dwarves.each_with_index { |val, i| 
   puts "#{i+1} #{val}"
   }
 end
 
 def summon_captain_planet (array)
-  # Your code here
+  #return value should be an array with capitalized elements and ! added
 end
 
 def long_planeteer_calls# code an argument here
