@@ -23,5 +23,5 @@ def find_the_cheese(array)
   #go through array and reutrn the first cheese, if no cheese nil 
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = cheese_types & array
-  print cheese
+  puts cheese[0]
 end
