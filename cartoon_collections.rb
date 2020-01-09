@@ -19,7 +19,8 @@ def long_planeteer_calls(words)
   words.any? {|x| x.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
+  #go through array and reutrn the first cheese, if no cheese nil 
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.any? {|x| 
 end
