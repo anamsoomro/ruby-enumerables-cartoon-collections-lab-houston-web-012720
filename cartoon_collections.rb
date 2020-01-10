@@ -26,7 +26,8 @@ def find_the_cheese(array)
   cheese[0]
   
   #let me also do with .include
-  array.include? {|x|
-  
+  array.map {{|x|
+  check = cheese_types.include? x
   }
+  
 end
